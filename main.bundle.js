@@ -8797,6 +8797,7 @@ class Header extends BaseElement {
         background-color: #262626;
         width: 100%;
         height: 100%;
+        border-bottom: 3px solid #8c1d46;
       }
       .top-nav {
         margin-left: 75px;
@@ -8854,6 +8855,7 @@ class Header extends BaseElement {
                 <div class="row navbar">
                     <div class="col navbar-item"><a class="navbar-link" href="/schedule.html">Schedule</a></div>
                     <div class="col navbar-item"><a class="navbar-link" href="/resources.html">Resources</a></div>
+                    <div class="col navbar-item"><a class="navbar-link" href="/offerings.html">Offerings</a></div>
                     <div class="col navbar-item"><a class="navbar-link" href="/videos.html">Videos</a></div>
                     <div class="col navbar-item"><a class="navbar-link" href="/connect.html">Connect</a></div>
                     <div class="col navbar-item"><a class="navbar-link" href="/about.html">About</a></div>
@@ -8881,6 +8883,7 @@ class Footer extends BaseElement {
         justify-content: center;
         height: 200px;
         flex-wrap: wrap;
+        border-top: 3px solid #8c1d46;
     }
     .copyright {
         flex-basis: 100%;
